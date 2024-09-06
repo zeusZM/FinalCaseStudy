@@ -47,6 +47,10 @@ public class BasicCalculator {
 			o = num1 / num2;
 			break;
 
+		// case to find the quotient of dividend and divisor
+		case '%':
+			o = num1 % num2;
+			break;
 		default:
 			System.out.println("You enter wrong input");
 		}
